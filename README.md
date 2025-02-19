@@ -8,6 +8,9 @@
 
 </p>
 
+<p>Verificar hospedagem(Sugestão - Reply.com)</p>
+<p>Verificar Tecnicas de WebScrapping</p>
+
 
 
 
