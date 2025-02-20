@@ -1,7 +1,7 @@
 import telebot, os
 from dotenv import load_dotenv
 
-load_dotenv("TOKEN_TELEBOT.env") 
+load_dotenv(".env") 
 ChaveApi = os.getenv("TOKEN_TELEBOT")
 
 if not ChaveApi:
