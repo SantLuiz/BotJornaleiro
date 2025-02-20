@@ -1,5 +1,15 @@
-import telebot
-ChaveApi = "7330657806:AAGYOzLT6-kW7UqEExU1Zt44rxyqoQ2Lm5c"
+import telebot, os
+from dotenv import load_dotenv
+
+load_dotenv("TOKEN_TELEBOT.env") 
+ChaveApi = os.getenv("TOKEN_TELEBOT")
+
+if not ChaveApi:
+    raise ValueError("A chave da API não foi encontrada no .env")
+
+print(f"Chave API carregada: {ChaveApi}")
+
+
 bot = telebot.TeleBot(ChaveApi)
 
 #https://core.telegram.org/bots/api -> Documentação API
