@@ -8,8 +8,21 @@
 
 </p>
 
+<h4>Funcionamento do Projeto</h4>
+<p>Ao entrar no bot, usuario envia uma mensagem de saudação e são oferecidas opções:
+1 - Noticias
+2 - Concursos
+3 - Configurações</p>
+
+<p>Em CONFIGURAÇÕES, o usuario pode determinar de quais sites e quais assuntos ele o bot vai buscar noticias, e por quanto tempo armazenar esta infos/ e de quais estados e orgão o bot vai procurar por concursos</p>
+<p>Em NOTICIAS, são apresentados os links para as noticias que o bot recolheu</p>
+<p>Em CONCURSOS, É Apresentada uma lista de todos os concursos publicados no diario oficial da união, com nome e cargo</p>
+
+
+<h4>Sugestoes de Melhorias</h4>
 <p>Verificar hospedagem(Sugestão - Reply.com)</p>
 <p>Verificar Tecnicas de WebScrapping</p>
+<p>Verificar possibilidade de criar um WebApp para deixar o bot mais dinamico</p>
 
 
 
